@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Hub</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1e1e2f;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #29293d;
+            padding: 15px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            margin: 20px;
+            text-align: center;
+        }
+        nav a {
+            color: #00d4ff;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .content {
+            padding: 20px;
+            text-align: center;
+        }
+        footer {
+            background-color: #29293d;
+            padding: 10px;
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Gaming Hub</h1>
+    </header>
+    <nav>
+        <a href="#news">News</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#leaderboard">Leaderboard</a>
+    </nav>
+    <div class="content">
+        <section id="news">
+            <h2>Latest Gaming News</h2>
+            <p>Stay updated with the latest happenings in the gaming world!</p>
+        </section>
+        <section id="reviews">
+            <h2>Game Reviews</h2>
+            <p>Check out our reviews of the latest games.</p>
+        </section>
+        <section id="leaderboard">
+            <h2>Leaderboard</h2>
+            <p>Top players in the gaming community.</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Gaming Hub. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
